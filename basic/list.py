@@ -6,6 +6,8 @@
 nba = ["Warriors", "Celtics", "Lakers", "Dallas"]
 numbers = [34, 43, 323, 39, 99, 47]
 
+# Another method to create a list
+list = list(range(1, 10 + 1))
 
 # Add item to the last position
 nba.append("Timberwolves")

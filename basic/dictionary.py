@@ -24,4 +24,13 @@ student["Phone"] = "555-5555"
 # Update multiple values 
 student.update({"age": 22, "name": "Yasmin"})
 
-print(student)
+# Delete value
+del student["age"]
+
+# Length
+length = len(student)
+
+
+# Loop the dictionary
+for key, value in student.items():
+    print(key, value)
