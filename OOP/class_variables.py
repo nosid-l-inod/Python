@@ -1,8 +1,9 @@
-# Filename: classes.py
-# Description: Classes in OOP
+# Filename: classe_variables.py
+# Description: Class variables
 # Date: 21-02-2025
 
-# Methods are functions inside the class
+# Class variables are variables that are shared among all instances of a class
+
 
 # Create employee class
 class Employee:
@@ -21,7 +22,3 @@ class Employee:
 # Create an instance
 emp_1 = Employee("John", "Wick", 5000)
 
-
-# Call methods
-print(emp_1.fullname())
-print(emp_1.email)
